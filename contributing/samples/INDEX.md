@@ -1,6 +1,6 @@
 # ADK Samples Index
 
-Welcome to the ADK samples directory! This organized collection of 100+ examples helps you learn ADK from basics to advanced production use cases.
+Welcome to the ADK samples directory! This organized collection of 125+ examples helps you learn ADK from basics to advanced production use cases.
 
 ## 📚 Learning Path
 
@@ -54,11 +54,14 @@ Everything about tools - from built-in to custom integrations.
 - LangChain tools
 - CrewAI integration
 
-#### [04-mcp-integrations/](./04-mcp-integrations/) (11 samples)
+#### [04-mcp-integrations/](./04-mcp-integrations/) (14 samples)
 Model Context Protocol integrations for extended capabilities.
 - Various MCP transports (stdio, SSE, HTTP)
 - MCP server examples
 - Cloud service integrations via MCP
+- BigQuery via MCP endpoint
+- MCP progress callbacks
+- MCP toolset authentication
 
 ### Multi-Agent Systems
 
@@ -69,38 +72,45 @@ Orchestrating multiple agents for complex workflows.
 - Sub-agent configuration
 - Workflow patterns
 
-#### [06-live-streaming/](./06-live-streaming/) (6 samples)
+#### [06-live-streaming/](./06-live-streaming/) (7 samples)
 Real-time streaming with Live API.
 - Bidirectional streaming
 - Single vs multi-agent streaming
 - Tool callbacks in streaming
+- Streaming function call arguments
 - Debug utilities
 
 ### Advanced Features
 
-#### [07-plugins/](./07-plugins/) (2 samples)
+#### [07-plugins/](./07-plugins/) (3 samples)
 Plugin system for extensibility.
 - Basic plugin usage
 - Plugin retry mechanisms
+- Debug logging plugin
 
-#### [08-llm-providers/](./08-llm-providers/) (10 samples)
+#### [08-llm-providers/](./08-llm-providers/) (13 samples)
 Different LLM backend integrations.
 - Anthropic, Gemma, Ollama variants
-- LiteLLM integration and patterns
+- Gemma3 via Ollama
+- LiteLLM integration, streaming, and patterns
 - Multi-provider examples
 
-#### [09-data-storage/](./09-data-storage/) (5 samples)
+#### [09-data-storage/](./09-data-storage/) (6 samples)
 Database and storage integrations.
 - BigQuery, Bigtable, Spanner
+- PostgreSQL session persistence
 - Memory management
 - RAG with databases
 
-#### [10-google-cloud/](./10-google-cloud/) (6 samples)
+#### [10-google-cloud/](./10-google-cloud/) (10 samples)
 Google Cloud Platform integrations.
 - Google APIs usage
 - Search integration
 - GKE deployment
 - Application Integration
+- Agent Registry and API Registry
+- Conversational Analytics (Data Agent)
+- Cloud Pub/Sub
 
 #### [11-authentication/](./11-authentication/) (4 samples)
 Authentication and authorization patterns.
@@ -114,11 +124,13 @@ Agent-to-Agent communication protocol.
 - Human-in-loop with A2A
 - Root agent patterns
 
-#### [13-advanced-features/](./13-advanced-features/) (14 samples)
+#### [13-advanced-features/](./13-advanced-features/) (16 samples)
 Advanced capabilities and optimizations.
 - Context caching and offloading
 - Artifacts and state management
 - Rewind/resume functionality
+- Interactions API
+- Skills and SkillToolset
 - Multimodal outputs
 - Structured outputs and schemas
 - Computer use
@@ -132,7 +144,7 @@ Retrieval-Augmented Generation patterns.
 #### [15-production/](./15-production/) (10 samples)
 Production-ready real-world examples.
 - Complete applications (Jira agent, toolbox)
-- ADK internal tools (PR agents, triage, docs)
+- ADK internal tools (PR agents, triage, stale issue bot, docs)
 - Production patterns and best practices
 
 #### [16-utils/](./16-utils/) (4 items)
@@ -183,9 +195,9 @@ Utilities and helper scripts.
 
 ## 📊 Statistics
 
-- **Total Samples**: 114
+- **Total Samples**: 126
 - **Categories**: 16
-- **Difficulty Levels**: Beginner (13) → Intermediate (50+) → Advanced (50+)
+- **Difficulty Levels**: Beginner (13) → Intermediate (55+) → Advanced (55+)
 
 ## 🚀 Running Samples
 
